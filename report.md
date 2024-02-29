@@ -1,4 +1,5 @@
-system url:https://github.com/MarkerHub/eblog  
+target:https://github.com/MarkerHub/eblog   version: v1.0
+
 Log in as a test007 user and leave a comment in the comments section of the post using the malicious code we have prepared.  
 payload:<script>alert(document.cookie)</script>  
 <img width="415" alt="image" src="https://github.com/biantaibao/eblog_xss/assets/131763503/602cc7f2-0b15-48db-aea1-e562231e6b9a">  
