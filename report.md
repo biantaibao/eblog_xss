@@ -1,4 +1,4 @@
-target:https://github.com/MarkerHub/eblog   version: v1.0
+target:https://github.com/MarkerHub/eblog   version: v1.0  
 A vulnerability was found in Eblog Blog System . The manipulation of the argument description with the input <script>alert(document.cookie)</script> leads to cross site scripting.Can conduct remote attacks on other users.  
 Log in as a test007 user and leave a comment in the comments section of the post using the malicious code we have prepared.  
 payload:<script>alert(document.cookie)</script>  
